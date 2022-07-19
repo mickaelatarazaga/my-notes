@@ -45,21 +45,18 @@ Ejemplo: `routing`, `profile-settings`, `course-management`.
 
 ### Commits
 
-Para los commits, se puede seguir la siguiente estructura:  `<type>(<scope>): <subject>`.
+Para los commits, se puede seguir la siguiente estructura:  `<type> <subject>`.
 
 El `type` son tokens cortos similares a los de las ramas, pueden ser: 
 
--  `feat` (feature)
-- `fix` (bug fix)
-- `docs` (documentation)
-- `style` (formatting, missing semi colons, …)
-- `refactor`
-- `test` (when adding missing tests)
-- `chore` (maintain).
+- `Add` (Feature)
+- `Fix` (Bug fix)
+- `Doc` (Documentation)
+- `Style` (Rormatting, missing semi colons, …)
+- `Refactor`(When the input and output data remain the same )
+- `Test` (When adding missing tests).
 
-El `scope` hace referencia al lugar en donde se han trabajado los cambios.
-
-El `subject` debe cumpler algunas reglas más específicas:
+El `subject`:
   * En inglés, usar modo imperativo, present tense: **change** en vez de _changed_ o _changes_.
   * La primera letra en mayúsculas (para seguir el estándar por defecto que usa Git al hacer un `merge` o `rebase`).
   * Intentar acortar el mensaje a 50 caracteres, no debe pasar de 78. 

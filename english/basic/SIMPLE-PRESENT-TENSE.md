@@ -69,7 +69,7 @@ En las oraciones interrogativas el orden de la estructura gramatical cambia. Pri
 **Are they** happy? 
 
 ## Otros Verbos
-El uso del tiempo presente simple tiene diferentes maneras según se trate de oraciones afirmativas, negativas o interrogativas.
+El uso del tiempo presente simple tiene diferentes formas según se trate de oraciones afirmativas, negativas o interrogativas.
 
 ### Oraciones afirmativas con distintos verbos
 

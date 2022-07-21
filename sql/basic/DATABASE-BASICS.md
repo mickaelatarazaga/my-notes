@@ -6,16 +6,7 @@
 
 [Normalización](#Normalización)
 
-[SQL](#SQL)
-
-[NoSQL](#NoSQL)
-
-
-
- Entidad - Atributos
- Relacion
- Cardinalidad
-
+[SQL](/sql/basic/SQL.md)
 
 # Tipos de datos
 
@@ -77,12 +68,3 @@ Una tabla normalizada se vería de la siguiente forma:
 
 ![normalized table](https://github.com/mickaelatarazaga/Dev-Notes/blob/main/assets/images/sql/normalized-tables.png?raw=true)
 
-# SQL
-
-
-
-
-
-
-
-# NoSQL

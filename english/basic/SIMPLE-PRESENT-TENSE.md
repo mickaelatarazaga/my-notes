@@ -1,10 +1,10 @@
 # Simple Present
-El tiempo presente simple se usa de dos maneras:
 
-
-- [Verbo To Be](#Verbo-To-Be)
-
+- [Verbo To Be](#Verbo-To-Be)  
 - [Otros Verbos](#Otros-Verbos)
+- [Prepocisiones](#Preposiciones)
+- [WH Questions](#WH-Questions)
+- [Have vs Has](#have-vs-has)
 
 ## Verbo To Be
 
@@ -177,3 +177,146 @@ En conclusión, las tres modalidades del tiempo presente simple son:
 Affirmative: I watch TV
 Negative: I don’t watch TV
 Interrogative: Do you watch TV?
+
+# Preposiciones
+
+Las **preposiciones de lugar** dan **información** sobre la **ubicación o localización de algo**. Las preposiciones más comunes son:
+
+
+![img](https://cdn.document360.io/da52b302-22aa-4a71-9908-ba18e68ffee7/Images/Documentation/Prepositions%20of%20place.jpg)
+
+![img](https://static.platzi.com/media/user_upload/preposition_of_place-4b7ca26b-ca1f-49df-bb9a-f6fab0e21a2b.jpg)
+
+# WH Questions
+Las WH questions son preguntas cuya respuesta no puede ser cerrada (sí o no). Estas inician con palabras que incluyen las letras w y h como Who o Where.
+
+Su estructura en el presente simple varía según use el verbo“do” or “be”.
+
+1. Do/Does  
+
+    `WH + DO/DOES + SUBJECT + VERB`
+
+    Where do you work?  
+    When does she wake up?  
+    Who is your brother?   
+
+2. Verb To-Be  
+
+    `WH + BE + SUBJECT`
+
+    Where are you from?  
+    Who is that man?  
+    When is your class?  
+
+
+## Tipos de WH Questions
+
+Existen varios tipos de WH Questions, tales como:
+
+![img](https://static.platzi.com/media/user_upload/wh-questions-where-how-why-explained-guide-school-english-e8c97fa6-6b3a-46db-bd4c-3e10a9c06eb0.jpg)
+
+Para ver ejercicios realizados [click acá](/english/basic/exercise/EXERCISES.md/#exercise-number-one).
+
+# Have vs Has
+
+Have y Has tienen el mismo significado, pero **Has se usa** con los **pronombres personales He, She, It en las oraciones afirmativas.**
+
+I have  
+You have  
+**He has**  
+**She has**  
+**It has**  
+You have  
+We have  
+They have  
+
+## Uso de Have y Has en oraciones afirmativas
+
+`I/You/We/They + Have`   
+`He/She/It + Has`  
+
+I have a dog  
+You have a dog  
+He has a dog  
+She has a dog  
+They have a dog  
+
+## Uso de Have y Has en oraciones negativas
+
+`I/You/We/They + Don’t + Have`  
+`He/She/It + Doesn’t + Have`  
+
+**I don’t** have a dog  
+**You don’t** have a dog  
+**He doesn’t** have a dog  
+**She doesn’t** have a dog  
+**They don’t** have a dog  
+
+>Se observa que en las oraciones negativas siempre se usa have, solo cambia el auxiliar **don’t o doesn’t**.
+
+## Uso de Have y Has en oraciones interrogativas
+
+`Do + I/You/We/The + Have … ?`  
+`Does + He/She/It + Have … ?`  
+
+**Do I** have a dog?  
+**Do you** have a dog?  
+**Does he** have a dog?  
+**Does she** have a dog?  
+**Do they** have a dog?  
+
+>Se observa que en las oraciones interrogativas siempre se usa have, solo cambia el auxiliar **do o does**.
+
+Para ver ejercicios realizados [click acá](/english/basic/exercise/EXERCISES.md/#exercise-number-two).
+
+# Irregular plural nouns}
+
+Generalmente a los sustantivos (nouns) se les agrega “s” para transformarlos en plural. Sin embargo, en algunas ocasiones existen reglas diferentes.
+
+## Sustantivos terminados en la letra "y"
+
+Cuando los sustantivos terminan con la letra “y” y esta es precedida por una consonante, **la letra “y” es sustituida por “ies”**. 
+
+Story – Stories.  
+Strawberry – Strawberries.  
+Candy – Candies  
+
+## Sustantivos terminados en las letras ch, x, s, sh, o
+
+Cuando los sustantivos terminan con las **letras “ch”, “x”, “s”, “sh”, “o”, se agrega “es”**.
+
+Beach – Beaches  
+Class – Classes  
+Box – Boxes  
+Brush – Brushes  
+Tomato – Tomatoes  
+
+## Sustantivos terminados en las letras f, fe, lf
+
+Cuando las palabras terminan con las letras **“f”, “fe”, “lf”, se sustituyen por “ves”**.
+
+Knife – Knives  
+Life - Lives  
+Wolf – Wolves  
+
+**Sustantivos irregulares**
+
+Existen sustantivos en los cuales **su plural es totalmente diferente** a las formas anteriores (Irregular plural nouns).
+
+Man – Men  
+Mouse – Mice  
+Louse – Lice  
+Bison – Bison  
+Woman – Women  
+Policeman - Policemen  
+Child – Children  
+Person – People  
+Fish – Fish  
+Tooth – Teeth  
+Goose – Geese  
+Sheep – Sheep  
+Moose – Moose  
+Foot – Feet  
+Ox – Oxen  
+Deer – Deer  
+Offspring – Offspring  

@@ -14,7 +14,13 @@ especificamos cuáles son las columnas que nos interesan. Por
 ejemplo:
 
 ```sql
-SELECT atributo_1, atributo_2 FROM nombre_tabla
+SELECT campo_1, campo_2 FROM nombre_tabla
+```
+Dentro de una tabla, una columna suele contener muchos valores duplicados y, a veces, solo desea enumerar los diferentes valores (distintos). Para eso existe `SELECT DISTINCT`.
+
+```sql
+SELECT DISTINCT column1, column2, ...
+FROM table_name;
 ```
 
 # INSERT
@@ -47,6 +53,13 @@ su valor respectivo:
     se quieren insertar datos, u omitir esa parte de la sentencia y
     especificar valores para todos los campos.
 
+## ORDER BY
+se utiliza para clasificar el conjunto de resultados en orden ascendente o descendente.
+```sql
+SELECT column1, column2, ...
+FROM table_name
+ORDER BY column1, column2, ... ASC|DESC;
+```
 
 # UPDATE
 Para **modificar los datos** que tiene almacenados una tabla, utilizamos la sentencia UPDATE con la siguiente sintaxis:
@@ -70,3 +83,64 @@ DELETE FROM nombre_tabla WHERE condiciones;
 ```
 
 Al igual que el UPDATE, si no se incluyen condiciones de filtrado, la sentencia DELETE eliminará todos los registros de la tabla.
+
+## La cláusula WHERE
+
+WHERE se utiliza para filtrar registros, extrayendo solo aquellos que cumplen una condición específica.
+``` sql
+SELECT column1, column2, ...
+FROM table_name
+WHERE condition;
+```
+
+### Operadores WHERE
+
+| Operador|Descripción|	
+|--|--|
+| = |Equal|	
+|>|	Greater than|	
+|<|	Less than	|
+|>=|	Greater than or equal	|
+|<=|	Less than or equal	|
+|<>|	Not equal. In some versions of SQL this operator may be written as !=|
+|BETWEEN x AND y|	Between a certain range	|
+|LIKE 'x %' |	Search for a pattern	|
+|IN ('x', ..)|	To specify multiple possible values for a column|
+
+## Operadores AND, OR, NOT
+WHERE se puede combinar con los operadores AND, OR y NOT.
+
+- **AND** muestra un registro si **todas** las condiciones separadas por AND son VERDADERAS.
+    ```sql
+    SELECT column1, column2, ...
+    FROM table_name
+    WHERE condition1 AND condition2 AND condition3 ...;
+    ```
+- **OR** muestra un registro si **alguna** de las condiciones separadas por OR es VERDADERA.
+    ```sql
+    SELECT column1, column2, ...
+    FROM table_name
+    WHERE condition1 OR condition2 OR condition3 ...;
+    ```
+- **NOT** muestra un registro **si la(s) condición(es) NO ES VERDADERA**.
+    ```sql
+    SELECT column1, column2, ...
+    FROM table_name
+    WHERE NOT condition;
+    ```
+
+## Operadores IS NULL / IS NOT NULL
+
+- **IS NULL** se utiliza para probar valores vacíos (valores NULL).
+    ```sql
+    SELECT column1, column2, ...
+    FROM nombre_tabla
+    WHERE column2 IS NULL;
+    ```
+
+- **IS NOT NULL** se utiliza para probar valores no vacíos (valores NO NULOS).
+    ```sql
+    SELECT column1, column2, ...
+    FROM nombre_tabla
+    WHERE column2 IS NOT NULL;
+    ```

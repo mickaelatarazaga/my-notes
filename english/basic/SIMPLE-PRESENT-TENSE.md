@@ -5,6 +5,7 @@
 - [Prepocisiones](#Preposiciones)
 - [WH Questions](#WH-Questions)
 - [Have vs Has](#have-vs-has)
+- [Irregular plural nouns](#irregular-plural-nouns)
 
 ## Verbo To Be
 
@@ -269,7 +270,7 @@ They have a dog
 
 Para ver ejercicios realizados [click acá](/english/basic/exercise/EXERCISES.md/#exercise-number-two).
 
-# Irregular plural nouns}
+# Irregular plural nouns
 
 Generalmente a los sustantivos (nouns) se les agrega “s” para transformarlos en plural. Sin embargo, en algunas ocasiones existen reglas diferentes.
 

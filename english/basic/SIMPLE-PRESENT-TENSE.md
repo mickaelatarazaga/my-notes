@@ -321,3 +321,23 @@ Foot – Feet
 Ox – Oxen  
 Deer – Deer  
 Offspring – Offspring  
+
+# Imperative form
+
+Los verbos en forma imperativa indican una acción directa y se usan para dar:
+
+- Instrucciones.
+- Órdenes.
+- Consejos.
+
+Son frases con el **verbo en infinitivo** **sin** estar acompañadas de un **sujeto**.
+
+```
+Come here!  
+Sit down!  
+Don´t go!
+Look out!
+Close the door, please.
+Switch the TV off.
+Put the flour, milk and eggs in a bowl.
+```

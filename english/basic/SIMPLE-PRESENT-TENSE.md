@@ -341,3 +341,45 @@ Close the door, please.
 Switch the TV off.
 Put the flour, milk and eggs in a bowl.
 ```
+
+# A vs AN
+Se utilizan para:
+
+1. Identificar que se trata de una sola cantidad de algo (singular):
+
+    ```
+    I need a car.
+    I want an apple.
+    ```
+2. Delante de las profesiones:
+
+    ```
+    She’s an actress.
+    He’s a photographer.
+    ```
+
+
+## Usos del  “A” 
+
+Se utiliza antes de las palabras que tienen un sonido consonante.
+```
+A biomecatronic.
+A developer.
+``` 
+
+## Usos del  “AN” 
+
+Se utiliza antes de las palabras que comienza con un sonido vocal:
+```
+An apple
+An economist
+```
+
+>**Es el sonido de la palabra que le sigue la que determina si se usa A o An**.
+
+No se trata de que la palabra inicie en vocal o no.
+
+**University** ➝ En este caso, aunque University comienza en vocal su sonido es similar a “yours”. La forma correcta sería ➝ **A University**
+
+**Hour**  ➝ En este caso, la “h” es muda, por tal motivo se usa “an” en lugar de “a”. La forma correcta sería ➝ **AN hour**
+

@@ -54,7 +54,7 @@ su valor respectivo:
     especificar valores para todos los campos.
 
 ## ORDER BY
-se utiliza para clasificar el conjunto de resultados en orden ascendente o descendente.
+Se utiliza para clasificar el conjunto de resultados en orden ascendente o descendente.
 ```sql
 SELECT column1, column2, ...
 FROM table_name
@@ -84,7 +84,15 @@ DELETE FROM nombre_tabla WHERE condiciones;
 
 Al igual que el UPDATE, si no se incluyen condiciones de filtrado, la sentencia DELETE eliminará todos los registros de la tabla.
 
-## La cláusula WHERE
+## Truncate
+
+Se utiliza para eliminar los datos de una talba, sin borrar la tabla en sí.
+
+```sql
+TRUNCATE TABLE nombre_tabla;
+```
+
+# Cláusula WHERE
 
 WHERE se utiliza para filtrar registros, extrayendo solo aquellos que cumplen una condición específica.
 ``` sql
@@ -144,3 +152,100 @@ WHERE se puede combinar con los operadores AND, OR y NOT.
     FROM nombre_tabla
     WHERE column2 IS NOT NULL;
     ```
+## TOP, LIMIT, FETCH FIRST o ROWNUM
+
+Se utiliza para especificar el número de registros a devolver.
+
+Es útil en tablas grandes con miles de registros ya que devolver una gran cantidad de registros puede afectar el rendimiento.
+
+Según el gestor de bases de datos, se utiliza 
+- **TOP**( MS Access)
+- **LIMIT** (MySQL)
+- **FETCH FIRST, ROWNUM** (ORACLE) 
+
+```sql
+SELECT * FROM nombre_tabla
+LIMIT 3;
+```
+
+## MIN() y MAX()
+
+`MIN()` devuelve el valor más pequeño de la columna seleccionada.
+```sql
+SELECT MIN(column_name)
+FROM table_name
+WHERE condition;
+```
+`MAX()` devuelve el valor más grande de la columna seleccionada.
+```sql
+SELECT MAX(column_name)
+FROM table_name
+WHERE condition;
+```
+
+## COUNT(), AVG() y SUM()
+
+`COUNT()` devuelve el número de filas que coincide con un criterio específico.
+```sql
+SELECT COUNT(column_name)
+FROM table_name
+WHERE condition;
+```
+
+`AVG()` devuelve el valor promedio de una columna numérica. 
+```sql
+SELECT AVG(column_name)
+FROM table_name
+WHERE condition;
+```
+
+`SUM()` devuelve la suma total de una columna numérica. 
+```sql
+SELECT SUM(column_name)
+FROM table_name
+WHERE condition;
+```
+
+## LIKE
+
+`LIKE` se usa junto a `WHERE` para buscar un patrón específico en una columna.
+
+Hay dos comodines:
+
+`(%)` representa cero, uno o varios caracteres  
+`(_)` representa un solo carácter  
+`[charlist]` 
+
+```sql
+SELECT column1, column2, ...
+FROM table_name
+WHERE columnN LIKE pattern;
+```
+
+LIKE ..|	Description
+|--|--|
+**'a%'**|	Finds any values that start with "a"
+**'%a'**|	Finds any values that end with "a"|
+**'%or%'**|	Finds any values that have "or" in any position
+**'_r%'**|	Finds any values that have "r" in the second position
+**'a_%'**|	Finds any values that start with "a" and are at least 2 characters in length
+**'a__%'**|	Finds any values that start with "a" and are at least 3 characters in length
+**'a%o'**|	Finds any values that start with "a" and ends with "o"
+
+
+## IN
+
+`IN` Permite especificar múltiples valores en la cláusula `WHERE`.
+
+Es una forma abreviada de múltiples condiciones `OR`.
+
+```sql
+SELECT column_name(s)
+FROM table_name
+WHERE column_name IN (value1, value2, ...);
+```
+```sql
+SELECT column_name(s)
+FROM table_name
+WHERE column_name IN (SELECT STATEMENT);
+```

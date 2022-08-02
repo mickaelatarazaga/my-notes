@@ -40,3 +40,15 @@ ALTER permite modificar la definición de una tabla, ya sea sus columnas (agrega
     ```sql
     ALTER TABLE nombre_tabla DROP COLUMN nombre_columna;
     ```
+
+# DROP
+
+Se utiliza para eliminar una tabla o Base de Datos.
+
+```sql
+DROP TABLE nombre_tabla;
+```
+```sql
+DROP DATABASE nombre_bd;
+```
+

@@ -43,3 +43,14 @@ ON table1.column_name = table2.column_name;
 ```
 > El resultado es 0 registros del lado derecho, si no hay coincidencia.
 
+## RIGHT JOIN
+
+Devuelve todos los registros de la tabla de la derecha (tabla1) y los registros coincidentes de la tabla de la izquierda (tabla2). 
+```sql
+SELECT column_name(s)
+FROM table1
+RIGHT JOIN table2
+ON table1.column_name = table2.column_name;
+```
+> El resultado es 0 registros del lado izquierdo, si no hay coincidencia.
+

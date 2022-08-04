@@ -14,7 +14,23 @@ Con el uso de la palabra
 reservada `ON` especificamos cuales son los campos de cada
 tabla que deben coincidir.
 ```sql
-SELECT sigla.nombre_columna1, sigla.nombre_columna2,...
-FROM nombre_tabla sigla
-INNER JOIN nombre_tabla_a_unir sigla ON sigla_tabla_1.columna_a_comparar = sigla_tabla_a_unir.columna_a_comparar;
+SELECT column_name(s)
+FROM table1
+JOIN table2
+ON table1.column_name = table2.column_name;
 ```
+# Tipos de JOINs
+
+![joins-type](https://estradawebgroup.com/ImagesUpload/sql-joins.jpg)
+
+## INNER JOIN
+
+Selecciona registros que tienen valores coincidentes en ambas tablas.
+```sql
+SELECT column_name(s)
+FROM table1
+INNER JOIN table2
+ON table1.column_name = table2.column_name;
+```
+
+

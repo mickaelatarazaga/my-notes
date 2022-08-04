@@ -54,3 +54,14 @@ ON table1.column_name = table2.column_name;
 ```
 > El resultado es 0 registros del lado izquierdo, si no hay coincidencia.
 
+## FULL OUTER JOIN
+
+Devuelve todos los registros cuando hay una coincidencia en los registros de la tabla izquierda (tabla1) o derecha (tabla2).
+```sql
+SELECT column_name(s)
+FROM table1
+FULL OUTER JOIN table2
+ON table1.column_name = table2.column_name
+WHERE condition;
+```
+> Se puede utilizar `FULL JOIN` o `FULL OUTER JOIN` indiferentemente.

@@ -31,3 +31,17 @@
 `kill <PID>` (Mata el proceso dentro de una máquina linux)
 
 `$ docker stop <name>` (Obliga a apagar el contenedor en cualquier SO)
+
+`$ docker run -d --name proxy nginx` (Corre un nginx)
+
+`$ docker stop proxy` (Apaga el contenedor)
+
+`$ docker rm -f <contenedor>` (Para y borra el contenedor)
+
+`$ docker run -d --name proxy -p 8080:80 nginx` (Corre un nginx y expone el puerto 80 del contenedor en el puerto 8080 de mi máquina)
+
+`$ docker logs proxy` (Muestra los logs)
+
+`$ docker logs -f proxy` (Follow de los logs)
+
+`$ docker logs --tail 10 -f proxy` (Filtra 10 últimas entradas de los logs)

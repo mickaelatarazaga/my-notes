@@ -20,3 +20,31 @@ Permite que las aplicaciones sean más simples de escalar, más rápidas de desa
 2. Reducción de costos gracias al autoescalamiento
 3. Entregables más rápido
 4. Equipos de desarrollo más pequeños
+
+## Desventajas
+
+1. Mayor esfuerzo al desplegar e integrar los microservicios
+2. Múltiples bases de datos, duplicidad de datos
+3. Requiere más personal
+4. Necesidad de DevOps y buenas herramientas
+5. Complejidad al manejar gran número de microservicios
+6. Alta inversión, mantenimiento y arquitectura
+
+## Buenas Prácticas a seguir
+
+1. Aislamiento
+2. Autonomía
+3. Repositorio propio para cada microservicio
+4. Base de datos para cada microservicio permitiendo alta disponibilidad
+5. Desplegar en servidores de manera independiente
+6. Cada microservicio debe tener una única responsabilidad
+7. Manejar datos estándar
+8. Monitoreable(Logs)
+9. Versionado
+
+## Opciones para desplegar microservicios
+
+1. Maquinas virtuales
+2. Servicios para APIs (App Service de Azure)
+3. Serverless (Azure functions, AWS lamda, Alibaba function compute)
+4. Contenedores (Docker)
